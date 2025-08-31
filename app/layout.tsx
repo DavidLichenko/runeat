@@ -59,7 +59,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <link rel="icon" href="/logo.svg" type="image/png" />
         </head>
         <body className={`${oswald.variable}  overflow-x-hidden font-sans bg-background text-foreground min-h-screen`} suppressHydrationWarning>
-        <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+        <ThemeProvider attribute="class" defaultTheme="light" enableSystem>
             <ReactLenis root>
             {children}
             </ReactLenis>
