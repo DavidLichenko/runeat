@@ -8,7 +8,6 @@ import FirstSlide from "components/FirstSlide";
 const Page = () => {
     return (
         <>
-            <Header/>
             <FirstSlide/>
             <div className="mx-auto h-full container flex justify-center items-start">
 
@@ -35,8 +34,6 @@ const Page = () => {
                     </motion.div>
 
             </div>
-
-            <Footer/>
         </>
 );
 };

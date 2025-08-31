@@ -2,32 +2,12 @@ import type { Metadata } from "next";
 import { ThemeProvider } from "next-themes";
 // import localFont from '@next/font/local'
 import "styles/globals.css";
-//
-// const dinPro = localFont({
-//     src: [
-//         {
-//             path:"../public/fonts/dinpro_light.otf",
-//             weight:"400"
-//         },
-//         {
-//             path:"../public/fonts/dinpro.otf",
-//             weight:"500"
-//         },
-//         {
-//             path:"../public/fonts/dinpro_italic.otf",
-//             weight:"400",
-//             style:'italic',
-//         },
-//         {
-//             path:"../public/fonts/dinpro_bold.otf",
-//             weight:"700"
-//         },
-//     ], // Use an absolute path from the public folder
-//     variable: '--font-dinpro'
-// });
-
+import { abys } from "../lib/fonts";
 import { Oswald } from "next/font/google"
 import ReactLenis from "lenis/dist/lenis-react";
+import Header from "components/Header";
+import React from "react";
+import Layout from "components/Layout";
 //Oswald
 //Caveaut
 //Amatic
@@ -58,10 +38,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <head>
             <link rel="icon" href="/logo.svg" type="image/png" />
         </head>
-        <body className={`${oswald.variable}  overflow-x-hidden font-sans bg-background text-foreground min-h-screen`} suppressHydrationWarning>
-        <ThemeProvider attribute="class" defaultTheme="light" enableSystem>
+        <body className={`${oswald.variable} ${abys.variable}  overflow-x-hidden font-sans bg-background text-foreground min-h-screen`} suppressHydrationWarning>
+        <ThemeProvider attribute="class" defaultTheme="light" forcedTheme={'light'}>
             <ReactLenis root>
-            {children}
+               <Layout>
+                {children}
+               </Layout>
             </ReactLenis>
         </ThemeProvider>
         </body>

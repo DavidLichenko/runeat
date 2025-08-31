@@ -8,7 +8,7 @@ import FirstSlide from "components/FirstSlide";
 const Page = () => {
     return (
         <>
-            <Header/>
+
             <FirstSlide/>
             <div className="mx-auto h-screen container flex justify-center items-start">
                 <motion.div initial={{y: 30, opacity: 0}} whileInView={{y: 0, opacity: 1}}
@@ -17,8 +17,6 @@ const Page = () => {
                 </motion.div>
             </div>
 
-
-            <Footer/>
         </>
 );
 };

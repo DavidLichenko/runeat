@@ -10,42 +10,42 @@ const FirstSlide = () => {
                 <section
                     className="flex flex-col items-start justify-start w-full  mx-auto pb-20 md:pb-0 md:pt-12 md:justify-start h-full mb-24 bg-background z-10 text-center ">
                     <div
-                        className={' mx-auto flex md:items-start w-full'}
+                        className={' mx-auto flex md:items-start w-full mt-20'}
                     >
-                        <div className="flex md:items-start w-full md:w-2/3 mx-auto justify-between gap-4">
-                            <div className={'flex gap-4  items-start'}>
-                                <img className={'-right-6 relative -top-3 hidden md:block'} src="/logo2.png" alt="logo"
-                                     width="90" height="80"/>
-                                <h3 className="container text-xl ml-4 pl-4 leading-6 text-left border-l-2 border-cyan-700 uppercase text-secondary_text">Gastronomic <br/> Race
-                                </h3>
-                            </div>
-                            <div className={'flex gap-4'}>
-                                <motion.div
-                                    initial={{opacity: 0, x: 30}}
-                                    whileInView={{opacity: 1, x: 0}}
-                                    whileHover={{scale: 1.2}}
-                                    whileTap={{scale: 0.8}}
-                                    className={'sm:block hidden'}
-                                    exit={{opacity: 0, x: 30}}
-                                    transition={{duration: 0.2, ease: "backInOut"}}
+                        {/*<div className="flex md:items-start w-full md:w-2/3 mx-auto justify-between gap-4">*/}
+                        {/*    <div className={'flex gap-4  items-start'}>*/}
+                        {/*        <img className={'-right-6 relative -top-3 hidden md:block'} src="/logo2.png" alt="logo"*/}
+                        {/*             width="90" height="80"/>*/}
+                        {/*        <h3 className="container text-xl ml-4 pl-4 leading-6 text-left border-l-2 border-cyan-700 uppercase text-secondary_text">Gastronomic <br/> Race*/}
+                        {/*        </h3>*/}
+                        {/*    </div>*/}
+                        {/*    <div className={'flex gap-4'}>*/}
+                        {/*        <motion.div*/}
+                        {/*            initial={{opacity: 0, x: 30}}*/}
+                        {/*            whileInView={{opacity: 1, x: 0}}*/}
+                        {/*            whileHover={{scale: 1.2}}*/}
+                        {/*            whileTap={{scale: 0.8}}*/}
+                        {/*            className={'sm:block hidden'}*/}
+                        {/*            exit={{opacity: 0, x: 30}}*/}
+                        {/*            transition={{duration: 0.2, ease: "backInOut"}}*/}
 
-                                >
-                                    <Link href={'#'}><AiOutlineInstagram className={'w-7 h-7'}/></Link>
-                                </motion.div>
-                                <motion.div
-                                    initial={{opacity: 0, x: 30}}
-                                    whileInView={{opacity: 1, x: 0}}
-                                    whileHover={{scale: 1.2}}
-                                    className={'sm:block hidden'}
-                                    whileTap={{scale: 0.8}}
-                                    exit={{opacity: 0, x: 30}}
-                                    transition={{duration: 0.2, ease: "backInOut"}}
+                        {/*        >*/}
+                        {/*            <Link href={'#'}><AiOutlineInstagram className={'w-7 h-7'}/></Link>*/}
+                        {/*        </motion.div>*/}
+                        {/*        <motion.div*/}
+                        {/*            initial={{opacity: 0, x: 30}}*/}
+                        {/*            whileInView={{opacity: 1, x: 0}}*/}
+                        {/*            whileHover={{scale: 1.2}}*/}
+                        {/*            className={'sm:block hidden'}*/}
+                        {/*            whileTap={{scale: 0.8}}*/}
+                        {/*            exit={{opacity: 0, x: 30}}*/}
+                        {/*            transition={{duration: 0.2, ease: "backInOut"}}*/}
 
-                                >
-                                    <Link href={'#'}><AiOutlineWhatsApp className={'w-7 h-7'}/></Link>
-                                </motion.div>
-                            </div>
-                        </div>
+                        {/*        >*/}
+                        {/*            <Link href={'#'}><AiOutlineWhatsApp className={'w-7 h-7'}/></Link>*/}
+                        {/*        </motion.div>*/}
+                        {/*    </div>*/}
+                        {/*</div>*/}
 
                     </div>
                     <motion.div

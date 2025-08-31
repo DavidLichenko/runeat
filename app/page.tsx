@@ -50,9 +50,6 @@ export default function Page() {
                     </div>
                 </div>
             }
-            <div className=" w-full fixed z-[9990] top-0">
-                <Header/>
-            </div>
             <Hero/>
             <Section leftHalf={
                 <Features/>
@@ -664,7 +661,6 @@ c-9 93 -38 205 -68 265 -55 106 -157 164 -234 133z"/>
                 {/*    REGISTER*/}
                 {/*</motion.button>*/}
             </div>
-            <Footer/>
         </div>
     );
 }

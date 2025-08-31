@@ -6,6 +6,7 @@ module.exports = {
         extend: {
             fontFamily: {
                 sans: ['var(--font-font)'],
+                abys: ["var(--font-abys)"],
             },
             borderRadius: {
                 lg: 'var(--radius)',
