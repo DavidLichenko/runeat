@@ -13,7 +13,7 @@ export default function Hero() {
 
             <div className="relative z-20 bg-foreground">
                 <section
-                    className="flex flex-col items-center w-full  mx-auto pt-20 pb-20  md:py-20 md:justify-start h-full md:h-full bg-background z-10 text-center ">
+                    className="flex flex-col items-center w-full  mx-auto md:py-10 md:justify-start h-full md:h-full bg-background z-10 text-center ">
                     <div
                         className={' mx-auto flex md:items-start w-full mb-12'}
                     >
@@ -61,35 +61,10 @@ export default function Hero() {
                     >
                         <img src="/Banner.jpg" className={'w-full md:w-3/4'} alt="banner"/>
                     </motion.div>
-
-
-
-                    <h1 className="font-sans text-text absolute top-52 z-50 pl-12 sm:pl-0 sm:right-32  text-5xl sm:text-5xl md:text-6xl lg:text-8xl w-1/3 mb-6">
-                        {/*<motion.div initial={{opacity: 0.3, x: 50}} animate={{x: 0, opacity: 1}}*/}
-                        {/*            transition={{duration: 0.4, delay: 0.1, ease: "circIn"}}*/}
-                        {/*            className={'text-start sm:text-end hidden sm:block '}>*/}
-                        {/*    RUN & EAT*/}
-
-
-                        {/*    <span className={'relative font-black w-full h-full'}>*/}
-                        {/*           <svg viewBox="0 0 194 11" fill="none"*/}
-                        {/*                xmlns="http://www.w3.org/2000/svg"*/}
-                        {/*                className={'transform scaleX(-1) sm:scaleX(1) w-40 sm:w-96  absolute -bottom-2 -right-2 z-50'}>*/}
-                        {/*        <motion.path initial={{pathLength: 0, opacity: 0.4}}*/}
-                        {/*                     animate={{pathLength: 1, opacity: 1}}*/}
-                        {/*                     transition={{duration: 0.45, delay: 0.6, ease: "easeInOut"}}*/}
-                        {/*                     d="M28.5 3.32516C102 2.32516 234.9 0.925164 178.5 3.32516C122.1 5.72516 36.6667 7.99185 1 8.8252"*/}
-                        {/*                     stroke="#4DB92D" strokeWidth="3"/>*/}
-                        {/*    </svg>*/}
-                        {/*        DUBAI*/}
-                        {/*    </span>*/}
-
-                        {/*</motion.div>*/}
-                    </h1>
-                    <h2 className="text-5xl font-light uppercase w-full md:w-2/4 text-secondary_text mt-32">
+                    <h2 className="text-5xl font-light uppercase w-full md:w-2/4 text-secondary_text mt-12 md:mt-32">
                         <motion.div initial={{opacity: 0, y: 30}} whileInView={{y: 0, opacity: 1}}
                                     transition={{duration: 0.3, delay: 0.1, ease: "easeIn"}}
-                                    className={'text-left ml-12 md:ml-0 md:text-center inline-flex'}>
+                                    className={' ml-4 mb-12 md:mb-0 md:ml-0 text-center md:text-center inline-flex'}>
 
                                 <p className="text-4xl font-light">
         <span className="flex flex-col gap-2 items-center relative align-middle">

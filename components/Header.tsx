@@ -65,7 +65,7 @@ export default function Header() {
           animate={!isMenuOpen ? {opacity: 1, y: 0} : {y:-30}}
           exit={isMenuOpen && {y: -15}}
           transition={{duration: 0.2}}
-          className="fixed top-0 left-0 right-0 z-50 backdrop-blur-xl bg-white border-b border-gray-200 dark:border-gray-700"
+          className="fixed top-0 left-0 h-16 md:h-20 right-0 z-50 backdrop-blur-xl bg-white border-b border-gray-200 dark:border-gray-700 will-change-transform"
           style={{
             backgroundColor: scrollY.get() > 100 ? backgroundColor : "white"
           }}
@@ -244,6 +244,7 @@ export default function Header() {
                                 initial={{opacity: 0, x: 20}}
                                 animate={{opacity: 1, x: 0}}
                                 transition={{duration: 0.3, delay: index * 0.1}}
+                                onClick={()=>setIsMenuOpen(false)}
                             >
                               <Link
                                   href={item.href}

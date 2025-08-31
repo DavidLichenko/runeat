@@ -8,9 +8,9 @@ const FirstSlide = () => {
         <>
             <div className="relative z-20 bg-foreground">
                 <section
-                    className="flex flex-col items-start justify-start w-full  mx-auto pb-20 md:pb-0 md:pt-12 md:justify-start h-full mb-24 bg-background z-10 text-center ">
+                    className="flex flex-col items-start justify-start w-full  mx-auto  md:pb-0 md:pt-10 md:justify-start h-full  bg-background z-10 text-center ">
                     <div
-                        className={' mx-auto flex md:items-start w-full mt-20'}
+                        className={' mx-auto flex md:items-start w-full mb-12'}
                     >
                         {/*<div className="flex md:items-start w-full md:w-2/3 mx-auto justify-between gap-4">*/}
                         {/*    <div className={'flex gap-4  items-start'}>*/}

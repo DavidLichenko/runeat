@@ -72,6 +72,11 @@
     @apply bg-background text-foreground;
     }
 }
+html, body {
+      overflow-x: hidden;
+      overflow-y: auto;
+      -webkit-overflow-scrolling: touch;
+}
 .three-body {
       --uib-size: 35px;
       --uib-speed: 0.8s;

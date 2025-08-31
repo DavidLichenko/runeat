@@ -256,7 +256,7 @@ c-9 93 -38 205 -68 265 -55 106 -157 164 -234 133z"/>
                                 {/*<h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-gray-900 dark:text-white mb-4">*/}
                                 {/*    Highlight the key features*/}
                                 {/*</h2>*/}
-                                <p className="text-4xl  text-left">
+                                <p className="text-4xl  text-left w-full">
                                     Our athletes can choose 5 km or 10 km distances to run. Our young participants will
                                     run
                                     a children's race at distances of 500 m and 1 km.
@@ -368,7 +368,7 @@ c-9 93 -38 205 -68 265 -55 106 -157 164 -234 133z"/>
                     </div>
                 </motion.div>
                 <motion.div initial={{opacity: 0.3}} whileInView={{opacity: 1}} transition={{delay: 0.3}}
-                            className={'gap-6 flex flex-col ml-4 my-10'}>
+                            className={'gap-6 flex flex-col ml-4 my-10 w-1/2'}>
                     <div className={'flex flex-col gap-3 justify-center items-start'}>
                         <h2 className={'flex items-center justify-center gap-2 font-bold uppercase text-3xl text-center'}>
                                 <span className={' bottom-[2px]'}><SlotCounter value={5}
